@@ -1,0 +1,57 @@
+﻿html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+.containerMainWrapper {
+    margin: 0 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.mainWrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+}
+.homeWrapper {
+    background-image: url('https://4.bp.blogspot.com/-1CIc7qEulGg/XGBsqK1JcjI/AAAAAAAAE4M/Pv4MqjHVLWcGd07XIuiRpyYPCI9qpDKPwCLcBGAs/s1600/DSC_1185.jpg');
+    height: 100%;
+    width:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+
+    font-size: 20px;
+}
+
+.bookWrapper {
+    width:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    margin:0 !important;
+}
